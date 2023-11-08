@@ -30,7 +30,6 @@ class Fila:
                 aux = aux.proximo
             print( texto )
             print( "Tamanho: ", str(self.tamanho))
-
     def remover(self):
         if self.inicio == None:
             print("Fila Vazia!")
